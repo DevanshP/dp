@@ -1,0 +1,247 @@
+/* Media queries for responsiveness */
+/* Header Section code for resposive  */
+
+@media screen and (max-width: 991px) {
+
+
+
+
+
+    /* Adjustments for Tablet screens */
+    .first-section>div {
+        align-items: center;
+        width: 45%;
+    }
+
+    #passionate {
+        width: max-content;
+    }
+
+    main {
+        padding-bottom: 700px;
+        overflow: hidden;
+    }
+
+    .first-section {
+        flex-direction: column-reverse;
+    }
+
+    .right-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .left-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .nav-toogle {
+        display: block;
+        margin-right: 20px;
+    }
+ 
+    .right {
+   display: none;
+    }
+
+    /* project section */
+    .main-card {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: center;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+    /* Footer */
+    footer{
+        margin-top: 60rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+
+    .left {
+        font-size: 20px;
+    }
+
+    .card {
+        flex-basis: 90%;
+    }
+
+    .box1 {
+        height: 30rem;
+    }
+
+    .skill-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+    /* Footer  */
+    footer{
+        margin-top: 50rem;
+    }
+}
+
+@media screen and (max-width: 497px) {
+
+
+
+    /* Project card section  */
+    .card {
+        flex-basis: 85%;
+    }
+
+    .skill-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .frontend-1 {
+        padding: 0px;
+    }
+
+    .box1 {
+        height: 30rem;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+}
+
+/* For viewport width <= 768px */
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+    .education {
+        flex-direction: row;
+        gap: 55px;
+        width: 80vw;
+    }
+
+    .education-item {
+        width: 100%;
+    }
+
+    .edu1 {
+        margin-right: 0;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+}
+
+/* For viewport width <= 425px */
+@media screen and (max-width: 425px) {
+
+    /* Further adjustments for even smaller screens */
+    .education {
+        padding: 30px 0;
+    }
+
+    .edu-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .edu1 {
+        gap: 5px;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+}
+
+/* MOBILE MEDIUM DEVICE 375PX */
+
+@media screen and (max-width: 375px) {
+
+    /* Skills section  */
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .box2 {
+        height: 35rem;
+        padding: 10px;
+    }
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+
+}
+
+/* MOBILE SMALL DEVICE 320PX */
+
+@media screen and (max-width: 400px) {
+
+
+
+    /* Skills section  */
+    .box1 {
+        height: 38rem;
+    }
+
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .box2 {
+        height: 40rem;
+        padding: 16px;
+    }
+    .box3{
+        height: 36rem;
+    }
+
+
+    /* hr */
+    hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 50px;
+    }
+}
